@@ -1,0 +1,18 @@
+{
+  "name": "client_2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "./node_modules/.bin/jest "
+  },
+  "dependencies": {
+    "axios": "*",
+    "jest": "^26.4.2",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}

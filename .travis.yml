@@ -13,7 +13,7 @@ script:
 after_success:
   - docker build -t magiclost/multi-client ./client
   - docker build -t magiclost/multi-nginx ./nginx
-  - docker build -t magiclost/multi-server ./ server
+  - docker build -t magiclost/multi-server ./server
   - docker build -t magiclost/multi-worker ./worker
   # Login to Docker cli
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
